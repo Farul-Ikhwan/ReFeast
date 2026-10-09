@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="← Back to log in"
+            android:textColor="@color/primary"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textColor="@color/text_primary"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvRoleLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"
+            android:text="Joining as Donor"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"/>
+
+        <TextView android:id="@+id/labelName" style="@style/FieldLabel" android:text="Name"/>
+        <EditText
+            android:id="@+id/etName"
+            style="@style/InputField"
+            android:hint="Your name or organisation"
+            android:inputType="textPersonName|textCapWords"/>
+
+        <TextView style="@style/FieldLabel" android:text="Email"/>
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/InputField"
+            android:hint="you@example.com"
+            android:inputType="textEmailAddress"/>
+
+        <TextView style="@style/FieldLabel" android:text="Phone"/>
+        <EditText
+            android:id="@+id/etPhone"
+            style="@style/InputField"
+            android:hint="e.g. 012-3456789"
+            android:inputType="phone"/>
+
+        <TextView style="@style/FieldLabel" android:text="Address"/>
+        <EditText
+            android:id="@+id/etAddress"
+            style="@style/InputField"
+            android:hint="e.g. 8, Jalan SS2/24"
+            android:inputType="textPostalAddress|textCapWords"/>
+
+        <TextView style="@style/FieldLabel" android:text="Area"/>
+        <Spinner
+            android:id="@+id/spinnerArea"
+            style="@style/InputField"
+            android:paddingStart="6dp"/>
+
+        <TextView style="@style/FieldLabel" android:text="Password"/>
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/InputField"
+            android:hint="At least 6 characters"
+            android:inputType="textPassword"/>
+
+        <TextView style="@style/FieldLabel" android:text="Confirm Password"/>
+        <EditText
+            android:id="@+id/etConfirm"
+            style="@style/InputField"
+            android:layout_marginBottom="24dp"
+            android:hint="Type the password again"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/btnRegister"
+            style="@style/PrimaryButton"
+            android:text="Create Account"/>
+
+    </LinearLayout>
+</ScrollView>

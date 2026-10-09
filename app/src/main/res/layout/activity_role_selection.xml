@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re:Feast"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/tagline"
+        android:textColor="#DCEFDC"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="I am joining as a..."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <!-- Donor -->
+    <LinearLayout
+        android:id="@+id/cardDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_role_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="18dp"
+        android:layout_marginBottom="14dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:contentDescription="Donor"
+            android:src="@drawable/ic_role_donor"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donor"
+                android:textColor="@color/text_primary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List surplus food for pickup"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Recipient -->
+    <LinearLayout
+        android:id="@+id/cardRecipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_role_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="18dp"
+        android:layout_marginBottom="14dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:contentDescription="Recipient"
+            android:src="@drawable/ic_role_recipient"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipient"
+                android:textColor="@color/text_primary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Browse and reserve available food"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Volunteer -->
+    <LinearLayout
+        android:id="@+id/cardVolunteer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_role_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="18dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="14dp"
+            android:contentDescription="Volunteer collector"
+            android:src="@drawable/ic_role_volunteer"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volunteer Collector"
+                android:textColor="@color/text_primary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick up and deliver food"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+
+</LinearLayout>

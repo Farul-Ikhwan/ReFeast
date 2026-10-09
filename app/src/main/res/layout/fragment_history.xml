@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvHistoryHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donation &amp; Collection History"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="none">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:checkedChip="@+id/chipAll"
+            app:selectionRequired="true"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAll"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipActive"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCompleted"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completed"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCancelled"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelled"/>
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"/>
+
+        <TextView
+            android:id="@+id/tvEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="32dp"
+            android:text="Nothing here yet."
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

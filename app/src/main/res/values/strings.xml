@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Re:Feast</string>
+    <string name="tagline">Rescue food. Feed community.</string>
+    <string name="demo_hint">Demo accounts: donor@refeast.my, recipient@refeast.my, volunteer@refeast.my\nPassword: password123</string>
+    <string name="about_text">Re:Feast connects donors with surplus food, recipients who need it, and volunteer collectors who deliver it.\n\nSWC3403 Mobile Application Development project.\nZubair Deniel bin Zama and Muhammad Farul Ikhwan.</string>
+</resources>

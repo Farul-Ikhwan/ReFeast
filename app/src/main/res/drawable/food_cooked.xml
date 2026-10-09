@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:pathData="M4,48 a44,44 0 1,0 88,0 a44,44 0 1,0 -88,0 z" android:fillColor="#FFF0BF"/>
+    <path android:pathData="M22,79 a26,4 0 1,0 52,0 a26,4 0 1,0 -52,0 z" android:fillColor="#F0D98C"/>
+    <path android:pathData="M36,26 C32,22 40,18 36,13" android:strokeColor="#B0A48A" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <path android:pathData="M48,24 C44,20 52,16 48,11" android:strokeColor="#B0A48A" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <path android:pathData="M60,26 C56,22 64,18 60,13" android:strokeColor="#B0A48A" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <path android:pathData="M22,48 C22,36 34,30 48,30 C62,30 74,36 74,48 z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M48,48 C48,40 56,36 64,38 C70,40 74,44 74,48 z" android:fillColor="#F08A24"/>
+    <path android:pathData="M55,42 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 z" android:fillColor="#C8601A"/>
+    <path android:pathData="M63.5,43 a2.5,2.5 0 1,0 5.0,0 a2.5,2.5 0 1,0 -5.0,0 z" android:fillColor="#C8601A"/>
+    <path android:pathData="M34.2,40 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0 z" android:fillColor="#E7E1D4"/>
+    <path android:pathData="M40.2,36 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0 z" android:fillColor="#E7E1D4"/>
+    <path android:pathData="M28.2,44 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0 z" android:fillColor="#E7E1D4"/>
+    <path android:pathData="M16,47 L80,47 C80,64 66,76 48,76 C30,76 16,64 16,47 z" android:fillColor="#2E7D32"/>
+    <path android:pathData="M20,52 L76,52" android:strokeColor="#81C784" android:strokeWidth="2.5" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+    <path android:pathData="M38,76 L58,76 L56,80 L40,80 z" android:fillColor="#1B5E20"/>
+</vector>

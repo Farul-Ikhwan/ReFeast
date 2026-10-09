@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="12dp">
+
+    <TextView style="@style/FieldLabel" android:text="Phone"/>
+    <EditText
+        android:id="@+id/etPhone"
+        style="@style/InputField"
+        android:inputType="phone"/>
+
+    <TextView style="@style/FieldLabel" android:text="Address"/>
+    <EditText
+        android:id="@+id/etAddress"
+        style="@style/InputField"
+        android:inputType="textPostalAddress|textCapWords"/>
+
+    <TextView style="@style/FieldLabel" android:text="Area"/>
+    <Spinner
+        android:id="@+id/spinnerArea"
+        style="@style/InputField"
+        android:paddingStart="6dp"/>
+</LinearLayout>
