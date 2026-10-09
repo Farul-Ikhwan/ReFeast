@@ -1,3 +1,5 @@
+# Claude is used specifically for fixing code and uploading to github for simplicity.
+
 # Re:Feast
 
 Community food rescue app for SWC3403 / SWC3713 Mobile Application Development.
